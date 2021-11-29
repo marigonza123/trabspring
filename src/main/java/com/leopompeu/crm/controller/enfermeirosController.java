@@ -21,7 +21,7 @@ public class enfermeirosController {
 	//Chamada da página "cadastra enfermeiro"
 	@RequestMapping(value="/cadastraEnfermeiro", method=RequestMethod.GET)
 	public String form(){
-		return "/cadastraEnfermeiro";
+		return "cadastraEnfermeiro";
 	}
 	
 	//Aplicando os valores de cadastro no banco de dados

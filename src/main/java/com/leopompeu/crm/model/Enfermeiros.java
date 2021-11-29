@@ -37,7 +37,7 @@ public class Enfermeiros implements Serializable{
 	private String cpf;
 	
 	@NotBlank
-	@Column(name="user", unique=true)
+	@Column(name="\"user\"", unique=true)
 	private String user;
 	
 	@NotBlank

@@ -20,9 +20,9 @@ public class DataConfig {
         factoryBean.setJpaVendorAdapter(vendorAdapter);
 
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
-        dataSource.setUsername("postgres");
-        dataSource.setPassword("postgres");
-        dataSource.setUrl("jdbc:postgresql://localhost:5432/trab");
+        dataSource.setUsername("zxomphcjexyggu");
+        dataSource.setPassword("08e9314c66c249ef7fae0912e8a2afd9c9e5b5f24607cbaaab42cb647e630e64");
+        dataSource.setUrl("jdbc:postgresql://ec2-100-24-202-223.compute-1.amazonaws.com:5432/d54jp79rabn8mn");
         dataSource.setDriverClassName("org.postgresql.Driver");
 
         factoryBean.setDataSource(dataSource);
