@@ -11,7 +11,7 @@
 	<groupId>com.leopompeu.crm</groupId>
 	<artifactId>processo-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-trab</name>
+	<name>trabspring</name>
 	<description>api para processo</description>
 	<properties>
 		<java.version>11</java.version>
